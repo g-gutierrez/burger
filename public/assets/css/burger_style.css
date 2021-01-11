@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
   
-.burgerImage {
+.burgerImg {
     margin: 0 auto;
     text-align: center;
 }
@@ -24,7 +24,7 @@ body {
 }
   
 .jumbotron {
-    background-color: #86ceff;
+    background-color: #ffbf00;
 }
   
 .container-fluid {
@@ -43,7 +43,7 @@ h2 {
     margin: 15px;
     line-height: 1.2;
     font-weight: bold;
-    color:  #222f66
+    color:  red
 }
 
 h1,
