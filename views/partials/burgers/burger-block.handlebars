@@ -1,12 +1,9 @@
-<li>
+<li class="burger-lists">
 	{{burger_name}}
-
     <div class="burger-lists-btns">
 	    <button class="change-devour" data-id="{{id}}" data-newdevour="{{devour}}">
 		    {{#if devour}}NOM-NOM{{else}}ONE MORE{{/if}}
 	    </button>
-
 	    <button class="delete-burger" data-id="{{this.id}}">DROP IT</button>
     </div>
-
 </li>
