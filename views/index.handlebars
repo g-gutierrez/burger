@@ -1,11 +1,12 @@
-<div class="jumbotron">
-    <div class="burgerImg"><img src="/assets/images/burger.png" alt="burgers" width="200" height="200">
+    <div class="burgerImg"><img src="/assets/images/nomnom.png" alt="burgers" width="200" height="200">
         <h2>Eat-Da-Burger!</h2>
+
         <div class="container-fluid">
             
             <div class="burger-lists mt-5 d-flex flex-column flex-sm-row justify-content-between">
                 
                 <div class="undevoured-list list-box my-2 my-sm-0 mr-sm-2">
+                    <h2 class="list-title">Gotta try it...</h2>
                     <ul class="list-content" id="not-dev-list">
                         {{#each burgers}}
                             {{#unless devoured}}
@@ -15,7 +16,8 @@
                     </ul>
                 </div>
 
-                <div class"devoured-list list-box my-2 my-sm-0 mr-sm-2">
+                <div class="devoured-list list-box my-2 my-sm-0 mr-sm-2">
+                    <h2 class="list-title">Had it...</h2>
                     <ul class="list-content" id="dev-list">
                         {{#each burgers}}
                             {{#if devoured}}
@@ -35,12 +37,11 @@
                     <div class="input-group mb-3">
                         <input type="text" id="br" name="burger_name" class="form-control" placeholder="Burger Name" aria-label="Burger Name" aria-describedby="button-addon2">
                         <div class="input-group-append">
-                            <button class="add-burger-btn" type="submit" id="button-addon2">SUBMIT</button>
+                            <button class="add-burger-btn" type="submit" id="button-addon2">GOTTA TRY IT</button>
                         </div>
-                        <p>Enter a burger you want to eat and click the "SUBMIT" button</p>
+                        <p>Enter a burger name and click "GOTTA TRY IT" button</p>
                     </div>
                 </div>
             </form>
         </div>
     </div>
-</div>
